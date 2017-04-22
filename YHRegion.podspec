@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
   提供地区管理 和 显示
                    DESC
+  s.platform     = :ios, "8.0"
 
   s.homepage     = "http://git.solot.co:10080/liao/YHRegion.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
