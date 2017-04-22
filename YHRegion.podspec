@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YHRegion"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "地区相关"
   s.description  = <<-DESC
   提供地区管理 和 显示
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "李傲" => "liao@solot.com" }
-  s.source       = { :git => "http://git.solot.co:10080/liao/YHRegion.git", :tag => "0.0.2" }
+  s.source       = { :git => "http://git.solot.co:10080/liao/YHRegion.git", :tag => "0.0.3" }
  s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.source_files  = "YHRegionManager/*.{h,m}"
   # s.public_header_files = "YHRegionManager/*.h"
