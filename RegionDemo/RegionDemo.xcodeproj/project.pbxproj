@@ -8,20 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		4C2B5F9BC856F6572CEDDAA2 /* Pods_RegionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D619AB585DEA9D2395D7C2 /* Pods_RegionDemo.framework */; };
+		790408E21EAB92E600836541 /* YHRegionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 790408DF1EAB92E600836541 /* YHRegionManager.m */; };
+		790408E31EAB92E600836541 /* YHRegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 790408E11EAB92E600836541 /* YHRegionModel.m */; };
+		790408E61EAB92EF00836541 /* regionDb.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 790408E51EAB92EF00836541 /* regionDb.bundle */; };
 		79C7580B1EA9E7CA00D6B927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C7580A1EA9E7CA00D6B927 /* main.m */; };
 		79C7580E1EA9E7CA00D6B927 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C7580D1EA9E7CA00D6B927 /* AppDelegate.m */; };
 		79C758111EA9E7CA00D6B927 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C758101EA9E7CA00D6B927 /* ViewController.m */; };
 		79C758141EA9E7CA00D6B927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C758121EA9E7CA00D6B927 /* Main.storyboard */; };
 		79C758161EA9E7CA00D6B927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C758151EA9E7CA00D6B927 /* Assets.xcassets */; };
 		79C758191EA9E7CA00D6B927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C758171EA9E7CA00D6B927 /* LaunchScreen.storyboard */; };
-		79C758251EA9E7DF00D6B927 /* YHRegionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C758221EA9E7DF00D6B927 /* YHRegionManager.m */; };
-		79C758261EA9E7DF00D6B927 /* YHRegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C758241EA9E7DF00D6B927 /* YHRegionModel.m */; };
 		79C758281EA9EBC500D6B927 /* AdministrationModel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79C758271EA9EBC500D6B927 /* AdministrationModel.txt */; };
-		79C7582E1EAA0B2D00D6B927 /* regionDb.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 79C7582D1EAA0B2D00D6B927 /* regionDb.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3975236D70DEE052776486B0 /* Pods-RegionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RegionDemo/Pods-RegionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		790408DE1EAB92E600836541 /* YHRegionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHRegionManager.h; sourceTree = "<group>"; };
+		790408DF1EAB92E600836541 /* YHRegionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHRegionManager.m; sourceTree = "<group>"; };
+		790408E01EAB92E600836541 /* YHRegionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHRegionModel.h; sourceTree = "<group>"; };
+		790408E11EAB92E600836541 /* YHRegionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHRegionModel.m; sourceTree = "<group>"; };
+		790408E51EAB92EF00836541 /* regionDb.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = regionDb.bundle; sourceTree = "<group>"; };
 		79C758061EA9E7CA00D6B927 /* RegionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C7580A1EA9E7CA00D6B927 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79C7580C1EA9E7CA00D6B927 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,12 +37,7 @@
 		79C758151EA9E7CA00D6B927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79C758181EA9E7CA00D6B927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79C7581A1EA9E7CA00D6B927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79C758211EA9E7DF00D6B927 /* YHRegionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHRegionManager.h; sourceTree = "<group>"; };
-		79C758221EA9E7DF00D6B927 /* YHRegionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHRegionManager.m; sourceTree = "<group>"; };
-		79C758231EA9E7DF00D6B927 /* YHRegionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHRegionModel.h; sourceTree = "<group>"; };
-		79C758241EA9E7DF00D6B927 /* YHRegionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHRegionModel.m; sourceTree = "<group>"; };
 		79C758271EA9EBC500D6B927 /* AdministrationModel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdministrationModel.txt; sourceTree = "<group>"; };
-		79C7582D1EAA0B2D00D6B927 /* regionDb.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = regionDb.bundle; sourceTree = "<group>"; };
 		91AA5F21A5134E8ABF826D2E /* Pods-RegionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RegionDemo/Pods-RegionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C7D619AB585DEA9D2395D7C2 /* Pods_RegionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,11 +54,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		790408DD1EAB92E600836541 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				790408DE1EAB92E600836541 /* YHRegionManager.h */,
+				790408DF1EAB92E600836541 /* YHRegionManager.m */,
+				790408E01EAB92E600836541 /* YHRegionModel.h */,
+				790408E11EAB92E600836541 /* YHRegionModel.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		790408E41EAB92EF00836541 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				790408E51EAB92EF00836541 /* regionDb.bundle */,
+			);
+			name = Resources;
+			path = ../../Resources;
+			sourceTree = "<group>";
+		};
 		79C757FD1EA9E7CA00D6B927 = {
 			isa = PBXGroup;
 			children = (
 				79C758271EA9EBC500D6B927 /* AdministrationModel.txt */,
-				79C758201EA9E7DF00D6B927 /* YHRegionManager */,
 				79C758081EA9E7CA00D6B927 /* RegionDemo */,
 				79C758071EA9E7CA00D6B927 /* Products */,
 				E2D08E814AA65AD926BB1B94 /* Pods */,
@@ -77,6 +97,8 @@
 		79C758081EA9E7CA00D6B927 /* RegionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				790408E41EAB92EF00836541 /* Resources */,
+				790408DD1EAB92E600836541 /* Classes */,
 				79C7580C1EA9E7CA00D6B927 /* AppDelegate.h */,
 				79C7580D1EA9E7CA00D6B927 /* AppDelegate.m */,
 				79C7580F1EA9E7CA00D6B927 /* ViewController.h */,
@@ -96,19 +118,6 @@
 				79C7580A1EA9E7CA00D6B927 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		79C758201EA9E7DF00D6B927 /* YHRegionManager */ = {
-			isa = PBXGroup;
-			children = (
-				79C758211EA9E7DF00D6B927 /* YHRegionManager.h */,
-				79C758221EA9E7DF00D6B927 /* YHRegionManager.m */,
-				79C758231EA9E7DF00D6B927 /* YHRegionModel.h */,
-				79C758241EA9E7DF00D6B927 /* YHRegionModel.m */,
-				79C7582D1EAA0B2D00D6B927 /* regionDb.bundle */,
-			);
-			name = YHRegionManager;
-			path = ../YHRegionManager;
 			sourceTree = "<group>";
 		};
 		E2D08E814AA65AD926BB1B94 /* Pods */ = {
@@ -191,8 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				79C758281EA9EBC500D6B927 /* AdministrationModel.txt in Resources */,
+				790408E61EAB92EF00836541 /* regionDb.bundle in Resources */,
 				79C758191EA9E7CA00D6B927 /* LaunchScreen.storyboard in Resources */,
-				79C7582E1EAA0B2D00D6B927 /* regionDb.bundle in Resources */,
 				79C758161EA9E7CA00D6B927 /* Assets.xcassets in Resources */,
 				79C758141EA9E7CA00D6B927 /* Main.storyboard in Resources */,
 			);
@@ -253,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C758251EA9E7DF00D6B927 /* YHRegionManager.m in Sources */,
-				79C758261EA9E7DF00D6B927 /* YHRegionModel.m in Sources */,
+				790408E21EAB92E600836541 /* YHRegionManager.m in Sources */,
+				790408E31EAB92E600836541 /* YHRegionModel.m in Sources */,
 				79C758111EA9E7CA00D6B927 /* ViewController.m in Sources */,
 				79C7580E1EA9E7CA00D6B927 /* AppDelegate.m in Sources */,
 				79C7580B1EA9E7CA00D6B927 /* main.m in Sources */,
