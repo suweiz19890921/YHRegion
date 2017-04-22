@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSObject+HQDBDecode.h"
-#import "HQDBHelper.h"
+//#import "NSObject+HQDBDecode.h"
+//#import "HQDBHelper.h"
+#import <HQDBDecode/HQDBHelper.h>
+#import <HQDBDecode/NSObject+HQDBDecode.h>
 
 
 
