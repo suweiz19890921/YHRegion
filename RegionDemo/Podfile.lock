@@ -1,0 +1,48 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GZIP (1.1.1)
+  - HQDBDecode (0.0.5):
+    - FMDB (~> 2.6.2)
+    - YYModel (~> 1.0.4)
+  - MBProgressHUD (1.0.0)
+  - YHLanguageSetting (0.0.3):
+    - YHLanguageSetting/Setting (= 0.0.3)
+    - YHLanguageSetting/UI (= 0.0.3)
+  - YHLanguageSetting/Setting (0.0.3):
+    - GZIP
+    - MBProgressHUD
+  - YHLanguageSetting/UI (0.0.3):
+    - YHLanguageSetting/Setting
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - HQDBDecode (from `ssh://git@git.solot.co:10022/liuhuanqing/HQDBDecode.git`)
+  - YHLanguageSetting (from `http://git.solot.co:10080/liao/YHLanguageSetting.git`)
+
+EXTERNAL SOURCES:
+  HQDBDecode:
+    :git: ssh://git@git.solot.co:10022/liuhuanqing/HQDBDecode.git
+  YHLanguageSetting:
+    :git: http://git.solot.co:10080/liao/YHLanguageSetting.git
+
+CHECKOUT OPTIONS:
+  HQDBDecode:
+    :commit: 1e90a9588765a17e445c7559d2a8c007aa9c64f1
+    :git: ssh://git@git.solot.co:10022/liuhuanqing/HQDBDecode.git
+  YHLanguageSetting:
+    :commit: cef13a973ec5bdbfeebdf464f1b0d294fb1f531a
+    :git: http://git.solot.co:10080/liao/YHLanguageSetting.git
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GZIP: f8beb59597f651e6970a45b816508a9c6d700b77
+  HQDBDecode: ec51183343eeba98947a6c185dbd08d85b04164b
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  YHLanguageSetting: e7da3dca348e39200aede1a09739ff80e51c575c
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 1ee2773c6ae74c0521217599a6b5d978bd8d8ecf
+
+COCOAPODS: 1.1.1
