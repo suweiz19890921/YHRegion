@@ -28,9 +28,10 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "李傲" => "liao@solot.com" }
-  s.source       = { :git => "http://git.solot.co:10080/liao/YHRegion.git", :tag => "#{s.version}" }
+  s.source       = { :git => "http://git.solot.co:10080/liao/YHRegion.git", :tag => "0.0.1" }
 
-  s.source_files  = "YHRegionManager", "Classes/**/*.{h,m}"
+  s.source_files  = "YHRegionManager/*.{h,m}"
+  s.public_header_files = "YHRegionManager/*.h"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
