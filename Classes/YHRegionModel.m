@@ -28,8 +28,8 @@
     NSString *lang = [YHLanguageSetting currentLanguage];
     if ([lang hasPrefix:@"zh_Hans"]) {
         return self.cnName;
-    } else if ([lang hasPrefix:self.lang]) {
-        return self.localName;
+    // } else if ([lang hasPrefix:self.lang]) {
+    //     return self.localName;
     } else {
         return self.enName;
     }
