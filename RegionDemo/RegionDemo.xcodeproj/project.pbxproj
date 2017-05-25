@@ -18,6 +18,7 @@
 		79C758161EA9E7CA00D6B927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C758151EA9E7CA00D6B927 /* Assets.xcassets */; };
 		79C758191EA9E7CA00D6B927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C758171EA9E7CA00D6B927 /* LaunchScreen.storyboard */; };
 		79C758281EA9EBC500D6B927 /* AdministrationModel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79C758271EA9EBC500D6B927 /* AdministrationModel.txt */; };
+		79C90ACA1ED71A9100FE5F42 /* YHRegion.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 79C90AC91ED71A9100FE5F42 /* YHRegion.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		79C758181EA9E7CA00D6B927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79C7581A1EA9E7CA00D6B927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79C758271EA9EBC500D6B927 /* AdministrationModel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdministrationModel.txt; sourceTree = "<group>"; };
+		79C90AC91ED71A9100FE5F42 /* YHRegion.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = YHRegion.podspec; path = ../YHRegion.podspec; sourceTree = "<group>"; };
 		91AA5F21A5134E8ABF826D2E /* Pods-RegionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RegionDemo/Pods-RegionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C7D619AB585DEA9D2395D7C2 /* Pods_RegionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 		79C757FD1EA9E7CA00D6B927 = {
 			isa = PBXGroup;
 			children = (
+				79C90AC91ED71A9100FE5F42 /* YHRegion.podspec */,
 				79C758271EA9EBC500D6B927 /* AdministrationModel.txt */,
 				79C758081EA9E7CA00D6B927 /* RegionDemo */,
 				79C758071EA9E7CA00D6B927 /* Products */,
@@ -202,6 +205,7 @@
 				79C758281EA9EBC500D6B927 /* AdministrationModel.txt in Resources */,
 				790408E61EAB92EF00836541 /* regionDb.bundle in Resources */,
 				79C758191EA9E7CA00D6B927 /* LaunchScreen.storyboard in Resources */,
+				79C90ACA1ED71A9100FE5F42 /* YHRegion.podspec in Resources */,
 				79C758161EA9E7CA00D6B927 /* Assets.xcassets in Resources */,
 				79C758141EA9E7CA00D6B927 /* Main.storyboard in Resources */,
 			);
