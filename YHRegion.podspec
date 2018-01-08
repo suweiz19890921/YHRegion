@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YHRegion"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "地区相关"
   s.description  = <<-DESC
   提供地区管理 和 显示
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
 
-  s.homepage     = "http://git.solot.co:10080/liao/YHRegion.git"
+  s.homepage     = "https://github.com/suweiz19890921/YHRegion.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "李傲" => "liao@solot.com" }
-  s.source       = { :git => "http://git.solot.co:10080/liao/YHRegion.git", :tag => "0.0.6" }
+  s.source       = { :git => "https://github.com/suweiz19890921/YHRegion.git", :tag => "0.0.6" }
  s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.source_files  = "YHRegionManager/*.{h,m}"
 s.public_header_files = "Classes/**/*.h"    
